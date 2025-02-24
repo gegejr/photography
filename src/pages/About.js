@@ -3,11 +3,20 @@ import React from 'react';
 import WomanImg from '../img/about/woman.png';
 // import link
 import { Link } from 'react-router-dom';
+//import motion
+import { motion } from 'framer-motion';
+//import transition
+import { transition1 } from '../transitions';
 
 const About = () => {
   //definindo cor de fundo
   return (
-  <section className='section'>
+  <motion.section 
+        initial={{opacity:0, y: '100%'}}
+        animate={{opacity:1, y: 0}}
+        exit={{opacity:0, y: '100%'}}
+        transition={transition1}
+        className='section'>
     <div className='container mx-auto h-full relative'>
       {/* text & img wrapper */}
       <div className='flex flex-col lg:flex-row h-full
@@ -19,7 +28,12 @@ const About = () => {
           <img src={WomanImg} alt=''/>
         </div>
         {/* text */}
-        <div className='flex-1 pt-36 pb-14 lg:pt-0
+        <motion.div 
+            initial={{opacity:0, y: '-80%'}}
+            animate={{opacity:1, y: 0}}
+            exit={{opacity:0, y: '-80%'}}
+            transition={transition1}
+            className='flex-1 pt-36 pb-14 lg:pt-0
         lg:w-auto z-10 flex flex-col justify-center
         items-center lg:items-start'>
           <h1 className='h1'>About me</h1>
@@ -32,10 +46,10 @@ const About = () => {
           ladnhgk angpnpoangoapnjghop naponpvpiahniogna
           </p>
           <Link to={'/Portfolio'} className='btn'>View My York</Link>
-        </div>
+        </motion.div>
       </div>
     </div>
-  </section>
+  </motion.section>
   );
 };
 

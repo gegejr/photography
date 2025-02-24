@@ -6,16 +6,30 @@ import Image3 from '../img/portfolio/3.png';
 import Image4 from '../img/portfolio/4.png';
 //import Link
 import { Link } from 'react-router-dom';
+//import motion
+import { motion } from 'framer-motion';
+//import transition
+import { transition1 } from '../transitions';
 
 const Portfolio = () => {
   //definindo cor de fundo
   return ( 
-  <section className='section'>
+  <motion.section 
+        initial={{opacity:0, y: '100%'}}
+        animate={{opacity:1, y: 0}}
+        exit={{opacity:0, y: '100%'}}
+        transition={transition1}
+        className='section'>
     <div className='container mx-auto h-full relative'>
       <div className='flex flex-col lg:flex-row h-full
       items-center justify-start gap-x-24 text-center
       lg:text-left pt-24 lg:pt-36 pb-8'>
-        <div className='flex flex-col lg:items-start'>
+        <motion.div 
+            initial={{opacity:0, y: '1-80%'}}
+            animate={{opacity:1, y: 0}}
+            exit={{opacity:0, y: '-80%'}}
+            transition={transition1}
+            className='flex flex-col lg:items-start'>
           <h1 className='h1'>Portfolio</h1>
           <p className='mb-12 max-w-sm'>Lorem ipsum dolor sit amet consascxt xaknsd
             askfnc lajsldml oxkop kc asndkn pásdf mapnf 
@@ -29,7 +43,7 @@ const Portfolio = () => {
           mx-auto lg:mx-0'>
             Hire me
           </Link>
-        </div>
+        </motion.div>
         <div className='grid grid-cols-2 lg:gap-2'>
           <div className='max-w-[250px] lg:max-w-[320px] h-[187px]
           lg:h-[220px] bg-accent overflow-hidden'>
@@ -70,7 +84,7 @@ const Portfolio = () => {
         </div>
       </div>
     </div>
-  </section >
+  </motion.section >
   );
 };
 

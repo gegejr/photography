@@ -13,32 +13,32 @@ const Socials = () => {
       <ul className='flex gap-x-4'>
         <li>
           <a href='http://www.facebook.com'
-          target='_blank'>
-            <ImFacebook />
+          target='_blank' >
+            <ImFacebook className='text-xl bg-purple-100 text-white-900 w-6 h-6 flex justify-center items-center rounded-full mb-6 mx-auto'/>
           </a>
         </li>
         <li>
           <a href='http://www.twitter.com'
-          target='_blank'>
-            <ImTwitter />
+          target='_blank' >
+            <ImTwitter className='text-xl bg-purple-100 text-white-900 w-6 h-6 flex justify-center items-center rounded-full mb-6 mx-auto'/>
           </a>
         </li>
         <li>
           <a href='http://www.pinterest.com'
           target='_blank'>
-            <ImPinterest />
+            <ImPinterest className='text-xl bg-purple-100 text-white-900 w-6 h-6 flex justify-center items-center rounded-full mb-6 mx-auto'/>
           </a>
         </li>
         <li>
           <a href='http://www.instagram.com'
           target='_blank'>
-            <ImInstagram />
+            <ImInstagram className='text-xl bg-purple-100 text-white-900 w-6 h-6 flex justify-center items-center rounded-full mb-6 mx-auto'/>
           </a>
         </li>
         <li>
           <a href='http://www.youtube.com'
           target='_blank'>
-            <ImYoutube />
+            <ImYoutube className='text-xl bg-purple-100 text-white-900 w-6 h-6 flex justify-center items-center rounded-full mb-6 mx-auto'/>
           </a>
         </li>
       </ul>

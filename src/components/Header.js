@@ -1,7 +1,7 @@
 import React from 'react';
 //import components
 import Socials from './Socials';
-import Logo from '../img/header/logo.svg';
+import Logo from '../img/header/logo.png';
 import MobileNav from './MobileNav';
 
 //import link
@@ -22,25 +22,25 @@ const Header = () => {
         {/* nav - iniciando hidden - show on desktop mode */}
         <nav className='hidden lg:flex gap-x-12 font-semibold '> {/* hidden lg:flex - Posiciona os itens e centraliza // gap-x-12 - Distancia entre os itens // font-semibold - Negrito */}
           <Link to={'/'} 
-          className='text-[#696c6d] hover:text-primary 
+          className='text-[#FFFFFF] hover:text-primary 
           transition' // O home muda de cor quando o mouse passa por cima
           >
             Home
           </Link>
           <Link to={'/about'} 
-          className='text-[#696c6d] hover:text-primary 
+          className='text-[#FFFFFF] hover:text-primary 
           transition' // O about muda de cor quando o mouse passa por cima
           >
             About
           </Link>
           <Link to={'/portfolio'} 
-          className='text-[#696c6d] hover:text-primary 
+          className='text-[#FFFFFF] hover:text-primary 
           transition' // O portfolio muda de cor quando o mouse passa por cima
           >
             Portfolio
           </Link>
           <Link to={'/contact'} 
-          className='text-[#696c6d] hover:text-primary 
+          className='text-[#FFFFFF] hover:text-primary 
           transition' // O contact muda de cor quando o mouse passa por cima
           >
             Contact
