@@ -31,17 +31,17 @@ const Portfolio = () => {
             transition={transition1}
             className='flex flex-col lg:items-start'>
           <h1 className='h1'>Portfolio</h1>
-          <p className='mb-12 max-w-sm'>Lorem ipsum dolor sit amet consascxt xaknsd
-            askfnc lajsldml oxkop kc asndkn pásdf mapnf 
-            labngflk mp paosnf jpom,
-          <br />
-          <br />
-          0lkapo lkgnp npn pk
-          ladnhgk angpnpoangoapnjghop naponpvpiahniogna
+          <p className='mb-12 max-w-sm'>Olhar as pessoas, abraçar de verdade, 
+            rir, chorar, cantar, dançar. Sêem tudo o máximo possível. 
+            Incluiquem e tudo que faz sentido e cortatodo o resto.
+            <br />
+            Que vocês lembrem do gosto, do cheiro, das cores, do clima, das pessoas, de cada pedacinho.
+            Que as fotos ajudem vocês a recordar cada olhar, sorriso, lágrima que vai ficar para sempre na 
+            memória.
           </p>
           <Link to={'/portfolio'} className='btn mb-[30px]
           mx-auto lg:mx-0'>
-            Hire me
+            Contrate-me
           </Link>
         </motion.div>
         <div className='grid grid-cols-2 lg:gap-2'>

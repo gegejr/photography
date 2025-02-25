@@ -25,7 +25,10 @@ const About = () => {
         {/*img */}
         <div className='flex-1 max-h-96 lg:max-h-max
         order-2 lg:order-none overflow-hidden'>
-          <img src={WomanImg} alt=''/>
+          <motion.img 
+              whileHover={{ scale: 1.1 }}
+              transition={transition1}
+              src={WomanImg} alt='' />
         </div>
         {/* text */}
         <motion.div 
@@ -36,16 +39,25 @@ const About = () => {
             className='flex-1 pt-36 pb-14 lg:pt-0
         lg:w-auto z-10 flex flex-col justify-center
         items-center lg:items-start'>
-          <h1 className='h1'>About me</h1>
-          <p className='mb-12 max-w-sm'>Lorem ipsum dolor sit amet consascxt xaknsd
-            askfnc lajsldml oxkop kc asndkn pásdf mapnf 
-            labngflk mp paosnf jpom,
-          <br />
-          <br />
-          0lkapo lkgnp npn pk
-          ladnhgk angpnpoangoapnjghop naponpvpiahniogna
+          <h1 className='h1'>Sobre mim</h1>
+          <p className='mb-12 max-w-sm'>Sou apaixonada por gente, vida e
+            movimento. Ávida por encontrar o
+            real significado das coisas e a essência
+            do que realmente importa.
+            <br />
+            <br />
+            Vejo a fotografia como um meio para
+            isso.
+            <br />
+            <br />
+            Fotografa a 6 anos, cristã e louca por
+            viagens
+            <br />
+            <br />
+            Fotografar não é apenas minha
+            profissão, é o meu estilo de vida.
           </p>
-          <Link to={'/Portfolio'} className='btn'>View My York</Link>
+          <Link to={'/Portfolio'} className='btn'>Meus trabalhos</Link>
         </motion.div>
       </div>
     </div>

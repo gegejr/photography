@@ -1,7 +1,7 @@
 import React from 'react';
 //import components
 import Socials from './Socials';
-import Logo from '../img/header/logo.png';
+import Logo from '../img/header/logo.svg';
 import MobileNav from './MobileNav';
 
 //import link
@@ -17,33 +17,33 @@ const Header = () => {
       lg:items-center w-full justify-between'>
         {/*Logo*/}
         <Link to={'/'} className='max-w-[200px]'>
-          <img src={Logo} alt='' />
+         
         </Link>          
         {/* nav - iniciando hidden - show on desktop mode */}
-        <nav className='hidden lg:flex gap-x-12 font-semibold '> {/* hidden lg:flex - Posiciona os itens e centraliza // gap-x-12 - Distancia entre os itens // font-semibold - Negrito */}
+        <nav className='hidden lg:flex gap-x-12 font-extrabold '> {/* hidden lg:flex - Posiciona os itens e centraliza // gap-x-12 - Distancia entre os itens // font-semibold - Negrito */}
           <Link to={'/'} 
-          className='text-[#FFFFFF] hover:text-primary 
-          transition' // O home muda de cor quando o mouse passa por cima
+          className='text-[#000000] px-4 py-2 border border-blue-500/50 rounded-full hover:bg-blue-500/20 
+           transition duration-700 ease-in-out' // O home muda de cor quando o mouse passa por cima
           >
-            Home
+            Inicio
           </Link>
           <Link to={'/about'} 
-          className='text-[#FFFFFF] hover:text-primary 
+          className='text-[#000000] px-4 py-2 border border-blue-500/50 rounded-full hover:bg-blue-500/20 hover:text-primary 
           transition' // O about muda de cor quando o mouse passa por cima
           >
-            About
+            Sobre
           </Link>
           <Link to={'/portfolio'} 
-          className='text-[#FFFFFF] hover:text-primary 
+          className='text-[#000000] px-4 py-2 border border-blue-500/50 rounded-full hover:bg-blue-500/20 hover:text-primary 
           transition' // O portfolio muda de cor quando o mouse passa por cima
           >
             Portfolio
           </Link>
           <Link to={'/contact'} 
-          className='text-[#FFFFFF] hover:text-primary 
+          className='text-[#000000] px-4 py-2 border border-blue-500/50 rounded-full hover:bg-blue-500/20 hover:text-primary 
           transition' // O contact muda de cor quando o mouse passa por cima
           >
-            Contact
+            Contato
           </Link>
         </nav>
       </div>

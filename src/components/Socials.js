@@ -14,31 +14,19 @@ const Socials = () => {
         <li>
           <a href='http://www.facebook.com'
           target='_blank' >
-            <ImFacebook className='text-xl bg-purple-100 text-white-900 w-6 h-6 flex justify-center items-center rounded-full mb-6 mx-auto'/>
-          </a>
-        </li>
-        <li>
-          <a href='http://www.twitter.com'
-          target='_blank' >
-            <ImTwitter className='text-xl bg-purple-100 text-white-900 w-6 h-6 flex justify-center items-center rounded-full mb-6 mx-auto'/>
+            <ImFacebook className='text-xl bg-white-100 text-white-900 w-6 h-6 flex justify-center items-center rounded-full mb-6 mx-auto'/>
           </a>
         </li>
         <li>
           <a href='http://www.pinterest.com'
           target='_blank'>
-            <ImPinterest className='text-xl bg-purple-100 text-white-900 w-6 h-6 flex justify-center items-center rounded-full mb-6 mx-auto'/>
+            <ImPinterest className='text-xl bg-white-100 text-white-900 w-6 h-6 flex justify-center items-center rounded-full mb-6 mx-auto'/>
           </a>
         </li>
         <li>
-          <a href='http://www.instagram.com'
+          <a href='https://www.instagram.com/eloperfeitoph?igsh=cmNzNjdqZWV4a2ll'
           target='_blank'>
-            <ImInstagram className='text-xl bg-purple-100 text-white-900 w-6 h-6 flex justify-center items-center rounded-full mb-6 mx-auto'/>
-          </a>
-        </li>
-        <li>
-          <a href='http://www.youtube.com'
-          target='_blank'>
-            <ImYoutube className='text-xl bg-purple-100 text-white-900 w-6 h-6 flex justify-center items-center rounded-full mb-6 mx-auto'/>
+            <ImInstagram className='text-xl bg-white-100 text-white-900 w-6 h-6 flex justify-center items-center rounded-full mb-6 mx-auto'/>
           </a>
         </li>
       </ul>

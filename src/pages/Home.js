@@ -30,14 +30,14 @@ const Home = () => {
           lg:w-auto z-10  lg:absolute flex flex-col
           justify-center items-center lg:items-start'>
             <h1 className='h1'>
-              photographer<br /> & film maker
+              Elo<br />Perfeito
             </h1>
             <p className='text-[26px] lg:text-[36px]
             font-primary mb-4 lg:mb-12'>
-              Los Angeles, USA
+              Cuiaba, MT
             </p>
             <Link to={'/contact'} className='btn mb-[30px]'>
-            hire me
+            Contrate-me
             </Link>
           </motion.div>
           {/* image */}   
@@ -48,7 +48,7 @@ const Home = () => {
               animate={{ scale:1 }}
               exit={{ scale:0 }}
               transition={transition1}
-              className='relative lg:-right-40
+              className='relative lg:-right-80
               overflow-hidden '
             >
               <motion.img 

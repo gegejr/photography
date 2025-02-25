@@ -29,9 +29,9 @@ const Contact = () => {
         ></motion.div>
         {/* text e from */}
         <div className='lg:flex-1 lg:pt-32 px-4'>
-          <h1 className='h1'>Contact me</h1>
-          <p className='mb-12'>I would love to get
-            suggestions from you.
+          <h1 className='h1'>Contate-me</h1>
+          <p className='mb-12'>Eu adoraria transformar 
+            seus momentos em memórias!
           </p>
           {/* form */}
           <form className='flex flex-col gap-y-4'>
@@ -42,7 +42,7 @@ const Contact = () => {
                 font-secondary w-full pl-13
                 placeholder:text-[#757879]'
                 type='text'
-                placeholder='Your Name'
+                placeholder='Seu nome'
                 />
                 <input 
                 className='outline-none border-b
@@ -50,7 +50,7 @@ const Contact = () => {
                 font-secondary w-full pl-13
                 placeholder:text-[#757879]'
                 type='text'
-                placeholder='Your Email Address'
+                placeholder='Seu email'
                 />
             </div>
             <input 
@@ -59,10 +59,10 @@ const Contact = () => {
                 font-secondary w-full pl-13
                 placeholder:text-[#757879]'
                 type='text'
-                placeholder='Your message'
+                placeholder='Sua mensagem'
                 />
                 <button className='btn mb-[30px] mx-auto
-                lg:mx-0 self-start'>Send it</button>
+                lg:mx-0 self-start'>Enviar</button>
           </form>
         </div>
         {/* img */}
